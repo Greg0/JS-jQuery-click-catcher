@@ -46,7 +46,7 @@ var catchClick = {
         
         return (this.path) ?
         dir.match(regex)[0] :
-        null;
+        '/';
     },
     
     check: function(adress)
