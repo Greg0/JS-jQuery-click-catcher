@@ -64,6 +64,12 @@ Next you must to define button set for each category (it's an object with button
 
 And finally call `init()` function
 
+Functions you can use outside class
+------
+
+- `closeDialog()` removing dialog box from DOM structure.
+- `changeDialog()` changing content of dialog box.
+
 Description
 ------
 Sorry for my english.
