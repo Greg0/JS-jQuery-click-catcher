@@ -30,7 +30,7 @@ To define URLs you want to open in UI dialog you must define an array `links` wi
     
       };
 
-function `getPath()` must be added before URL even if your website is in root path
+function `getPath()` must be added before URL even if your website is in root path. You can use regexp in URLs for IDs and sth like this. If you don't need to use them at the end you should to write `$` on the end.
 
 Next you must to define button set for each category (it's an object with buttons from UI dialog):
 
@@ -66,7 +66,7 @@ And finally call `init()` function
 
 Description
 ------
-
+Sorry for my english.
 That's all for now, I think it is possible to write something else in future ;)
 
 My homepage: <http://greg0.ovh.org>
