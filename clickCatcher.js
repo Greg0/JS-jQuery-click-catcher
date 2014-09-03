@@ -138,26 +138,16 @@ $(document).ready(function() {
         add : [
         catchClick.getPath()+'admin/building/add$',
         catchClick.getPath()+'admin/company/add$',
-        catchClick.getPath()+'admin/range/add$',
-        catchClick.getPath()+'admin/temppointcat/add$',
-        catchClick.getPath()+'admin/flushpointcat/add$',
         ],
         
         edit : [
         catchClick.getPath()+'admin/building/edit/[0-9]+',
         catchClick.getPath()+'admin/company/edit/[0-9]+',
-        catchClick.getPath()+'admin/range/edit/[0-9]+',
-        catchClick.getPath()+'admin/temppointcat/edit/[0-9]+',
-        catchClick.getPath()+'admin/flushpointcat/edit/[0-9]+',
         ],
     
         del : [
         catchClick.getPath()+'admin/building/delete/[0-9]+',
         catchClick.getPath()+'admin/company/delete/[0-9]+',
-        catchClick.getPath()+'admin/range/delete/[0-9]+',
-        catchClick.getPath()+'admin/file/delete/[0-9]+',
-        catchClick.getPath()+'admin/temppointcat/delete/[0-9]+',
-        catchClick.getPath()+'admin/flushpointcat/delete/[0-9]+',
         ]
     
     };
